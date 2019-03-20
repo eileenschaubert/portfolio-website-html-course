@@ -1,0 +1,242 @@
+/* main styles */
+
+body {
+  background: #1f202b;
+}
+
+header {
+  background: #1f202b;
+  width: 100%;
+}
+
+h2 {
+  font-family: "Source Code Pro";
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.centered {
+  margin: 0 100px;
+  padding: 0;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.color-emphasis {
+  color: #fa0075;
+}
+
+.flex-columns {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px auto;
+}
+
+.half-width {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2em;
+  width: 50%;
+}
+
+/* Base styles that apply to site title */
+.site-title {
+  font-family: Montserrat;
+  color: #ffffff;
+  font-size: 20pt;
+}
+
+/* Base styles that apply to menus */
+.menu-section {
+  background: #1f202b;
+}
+
+.menu {
+  align-items: center;
+  font-size: 20px;
+  padding: 0 25px;
+}
+
+.menu ul {
+	list-style-type: none;
+  margin: 0;
+	padding: 0;
+}
+
+.menu li a {
+  color: #ffffff;
+	display: block;
+  padding: .6em 1em;
+	text-decoration: none;
+}
+
+.menu li a:hover {
+	background: hsl(0, 0%, 25%);
+}
+
+/* Styles for Single Level Menu on wider screens */
+@media screen and (min-width: 30em) {
+  .single-nav ul {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+
+  .single-nav li {
+    -webkit-flex: 1 0 auto;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+    text-align: center;
+  }
+}
+
+/* Styles for mixed navigation bar */
+.nav-mixed {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background: hsl(0, 0%, 15%);
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+/*--------------------------------------------------------------
+Layouts
+--------------------------------------------------------------*/
+
+.hero {
+  align-items: center;
+  background-color: #1f202b;
+  background-image: url('../img/hero-background.png');
+  display: flex;
+  height: 725px;
+  width: 100%;
+}
+
+.hero h2 {
+  color: white;
+  font-family: "Source Code Pro";
+  font-size: 72px;
+  font-weight: bold;
+  margin-left: 100px;
+  text-align: left;
+}
+
+#portfolio {
+  height: 1350px;
+}
+
+#portfolio h2 {
+  font-family: "Source Code Pro";
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.project {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2em;
+}
+
+.project a {
+  color: white;
+  display: flex;
+  text-decoration: none;
+}
+
+.screenshot {
+  display: flex;
+  flex-grow: 0;
+}
+
+.screenshot img {
+  width: 100%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  flex: 0 1 calc(50% - .5em);
+  font-size: 24px;
+  width: 100%;
+}
+
+.description h3 {
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: .5em;
+}
+
+.description h4 {
+  margin-top: 0;
+  margin-bottom: .5em;
+}
+
+.art-rides {
+  text-align: right;
+}
+/* end code to adjust image and descriptions */
+
+
+#about-me {
+  background-color: #1f202b;
+  background-image: url('../img/about-me.png');
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  height: 550px;
+  width: 100%;
+}
+
+#about-me h2 {
+  margin-bottom: 1em;
+}
+
+#about-me p {
+  margin-bottom: 0;
+  margin-left: 100px;
+}
+
+#contact p {
+  color: #ffffff;
+  line-height: 1.2em;
+}
+
+.follow ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.follow img {
+  padding: 0 25px;
+}
+
+footer {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 60px;
+}
