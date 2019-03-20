@@ -1,56 +1,56 @@
 /***** BASE STYLES *****/
 
-body {
+.jubilee-body {
     font-family: 'Source Sans Pro', sans-serif;
     color: #2b2b2b;
 }
 
-#about, #work, #contact {
+#about, #work, #contact-jubilee {
     height: 600px;
 }
 
 /***** GRID *****/
 
-.full-width {
+.full-width-jubilee {
     width: 1200px;
     margin: 0 auto;
 }
 
-.half-width {
+.half-width-jubilee {
     width: 600px;
     float: left;
 }
 
-.third-width {
+.third-width-jubilee {
     width: 400px;
     float: left;
 }
 
 /***** HEADER *****/
 
-header {
+.jubilee-body header {
     height: 800px;
     background: url('../img/hero.png');
     background-size: cover;
 }
 
-header h1 {
+.jubilee-body header h1 {
     font-family: 'Lora', serif;
     font-size: 30px;
     color: #bbc085;
     padding: 65px 0 65px 25px;
 }
 
-nav {
+.jubilee-body nav {
     float: right;
     padding: 75px 25px;
 }
 
-nav ul li {
+.jubilee-body nav ul li {
     display: inline-block;
 }
 
-nav ul li a {
+.jubilee-body nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 18px;
@@ -58,7 +58,7 @@ nav ul li a {
     padding-left: 80px;
 }
 
-header h2 {
+.jubilee-body header h2 {
     width 1000px;
     clear: both;
     font-family: 'Lora', serif;
@@ -67,13 +67,13 @@ header h2 {
     color: #9b9b9b;
     padding: 20px 0 20px 25px;
 }
-header h2 span {
+.jubilee-body header h2 span {
     color: #2b2b2b;
 }
 
 /***** ABOUT *****/
 
-#about .full-width {
+#about .full-width-jubilee {
     padding: 80px 0;
 }
 
@@ -98,7 +98,7 @@ header h2 span {
     text-align: center;
 }
 
-#work .full-width {
+#work .full-width-jubilee {
     padding: 115px 0;
 }
 
@@ -122,60 +122,60 @@ header h2 span {
 
 /***** CONTACT *****/
 
-#contact {
+#contact-jubilee {
     background-color: #EBEBEB;
 }
 
-#contact .full-width {
+#contact-jubilee .full-width-jubilee {
   padding: 110px 0;
 }
 
-#contact img#contact-img {
+#contact-jubilee img#contact-img {
     margin-left: 25px;
     border: 12px solid #ffffff;
 }
 
-#contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
+#contact-jubilee h2, #contact-jubilee #email-header, #contact-jubilee #socialmedia-header, #contact-jubilee ul {
     padding-left: 115px;
 }
 
-#contact #envelope {
+#contact-jubilee #envelope {
   padding: 0 10px 0 115px;
 }
 
-#contact h2 {
+#contact-jubilee h2 {
     font-family: 'Lora', serif;
     font-size: 36px;
     line-height: 44px;
 }
-#contact #email-header{
+#contact-jubilee #email-header{
     font-size: 32px;
     font-weight: 400;
     line-height: 44px;
     margin: -30px 0 5px 0;
 }
-#contact #socialmedia-header {
+#contact-jubilee #socialmedia-header {
     font-weight: bold;
     font-size: 29px;
     line-height: 44px;
     margin: 40px 0 0 0;
 }
-#contact a {
+#contact-jubilee a {
     text-decoration: none;
     color: #C49075
     font-weight: bold;
     font-size: 28px;
 }
 
-#contact ul {
+#contact-jubilee ul {
     list-style: none;
 }
 
-#contact ul li {
+#contact-jubilee ul li {
     display: inline-block;
 }
 
-#contact ul img {
+#contact-jubilee ul img {
     font-size: 32px;
     padding-right: 48px;
 }
